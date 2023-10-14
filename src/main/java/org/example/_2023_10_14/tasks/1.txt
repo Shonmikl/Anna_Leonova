@@ -1,0 +1,101 @@
+Найти страну с максимальным населением.
+public Country findCountryWithMaxPopulation(List<Country> countries);
+
+Найти город с наибольшим числом улиц в регионе.
+public City findCityWithMaxStreets(Set<Region> regions);
+
+Вычислить средний доход по регионам страны.
+public float calculateAverageIncomeByRegions(Country country);
+
+Найти регион с наименьшим населением в стране.
+public Region findRegionWithMinPopulation(Country country);
+
+Вычислить общее число домов на улицах города.
+public int calculateTotalHousesInCity(City city);
+
+Посчитать количество городов в стране.
+public int countCitiesInCountry(Country country);
+
+Найти город с наименьшим населением в регионе.
+public City findCityWithMinPopulationInRegion(Region region);
+
+Найти улицу с наибольшим количеством домов в городе.
+public Street findStreetWithMaxHouses(City city);
+
+Определить, сколько улиц в регионе.
+public int countStreetsInRegion(Region region);
+
+Найти страну с минимальным населением.
+public Country findCountryWithMinPopulation(List<Country> countries);
+
+Найти город с максимальным населением в регионе.
+public City findCityWithMaxPopulationInRegion(Region region);
+
+Найти регион с максимальным доходом.
+public Region findRegionWithMaxIncome(Country country);
+
+Подсчитать общий доход всех регионов в стране.
+public float calculateTotalIncomeForCountry(Country country);
+
+Найти улицу с минимальным количеством домов в городе.
+public Street findStreetWithMinHouses(City city);
+
+Найти город с минимальным числом улиц в регионе.
+public City findCityWithMinStreets(Set<Region> regions);
+
+Подсчитать общее количество регионов в списке стран.
+public int countRegionsInCountriesList(List<Country> countries);
+
+Найти регион с минимальным доходом.
+public Region findRegionWithMinIncome(Country country);
+
+Найти страну, у которой город с максимальным населением имеет наименьший доход в регионе.
+public Country findCountryWithCityHavingMaxPopulationAndMinIncome(List<Country> countries);
+
+Подсчитать общее количество улиц в стране.
+public int countStreetsInCountry(Country country);
+
+Определить среднее количество домов на улице в городе.
+public float calculateAverageHousesPerStreet(City city);
+
+Найти страну, у которой больше всего городов с населением больше миллиона.
+public Country findCountryWithMostCitiesOverMillion(List<Country> countries);
+
+Определить среднее население городов в регионе.
+public float calculateAverageCityPopulationInRegion(Region region);
+
+Найти регион с наибольшим количеством городов.
+public Region findRegionWithMostCities(Country country);
+
+Найти страну, у которой регион с наименьшим населением имеет наибольший доход.
+public Country findCountryWithRegionHavingMinPopulationAndMaxIncome(List<Country> countries);
+
+Найти город, у которого улица с наибольшим количеством домов имеет наименьшее население.
+public City findCityWithStreetHavingMaxHousesAndMinPopulation(Region region);
+
+Подсчитать общий доход городов в регионе.
+public float calculateTotalIncomeForCitiesInRegion(Region region);
+
+Найти улицу в регионе, у которой наименьшее количество домов и которая находится в городе с наибольшим населением.
+public Street findStreetInRegionWithMinHousesAndLocatedInMostPopulatedCity(Region region);
+
+Найти страну, у которой регион с наименьшим числом городов имеет наибольшее количество улиц.
+public Country findCountryWithRegionHavingMinCitiesAndMaxStreets(List<Country> countries);
+
+Найти город с максимальным населением и минимальным количеством улиц.
+public City findCityWithMaxPopulationAndMinStreets(Region region);
+
+Определить, в каком городе региона улица с наибольшим числом домов имеет наибольшее население.
+public City findCityInRegionWhereStreetWithMaxHousesHasMaxPopulation(Region region);
+
+Подсчитать общее количество улиц, названия которых начинаются на заданную букву, в городе.
+public int countStreetsInCityStartingWithLetter(City city, char letter);
+
+Найти город с наибольшим количеством улиц, названия которых начинаются на заданную букву.
+public City findCityWithMostStreetsStartingWithLetter(Region region, char letter);
+
+Найти регион с наименьшим количеством улиц, названия которых заканчиваются на заданную букву.
+public Region findRegionWithMinStreetsEndingWithLetter(Country country, char letter);
+
+Определить, в каком регионе страны улица с наименьшим числом домов имеет наибольшее население города.
+public Region findRegionInCountryWhereStreetWithMinHousesIsLocatedInCityWithMaxPopulation(Country country);
