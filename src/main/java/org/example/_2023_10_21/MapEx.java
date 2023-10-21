@@ -4,6 +4,11 @@ import java.util.*;
 
 public class MapEx {
     private static final Random RANDOM = new Random();
+    Map<Integer, Street> map;
+    Set<Integer> set;
+    Map<Set<Integer>, Set<Street>> setMap;
+
+    Set<Map<Integer, String>> maps;
     public static void main(String[] args) {
         Map<Integer, Integer> map1 = new HashMap<>();
         for (int i = 0; i < 10; i++) {
