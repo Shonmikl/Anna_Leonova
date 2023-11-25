@@ -11,7 +11,7 @@ public class Test {
 
     public static void main(String[] args) {
         m(Test::r);
-        int y = a(1000000);
+
     }
 
     public static void m(Inter inter) {

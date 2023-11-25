@@ -122,3 +122,11 @@ public class StreamEx1 {
         System.out.println(list3);
     }
 }
+
+
+
+
+
+
+
+
